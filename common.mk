@@ -117,7 +117,8 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 # Additional FOSS Applications
 PRODUCT_PACKAGES += \
     ViMusic \
-    Droid-ify
+    Droid-ify \
+	Aves
 
 PRODUCT_PACKAGES += \
     android.frameworks.stats@1.0.vendor \
