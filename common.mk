@@ -281,11 +281,7 @@ PRODUCT_ENABLE_UFFD_GC := false
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.1.vendor
-
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
+    android.hardware.keymaster@4.1.vendor		
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
