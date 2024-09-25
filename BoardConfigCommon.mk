@@ -119,10 +119,6 @@ BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMO
 BOOT_KERNEL_MODULES := $(strip $(shell cat $(COMMON_PATH)/modules.include.recovery))
 TARGET_MODULE_ALIASES += wlan.ko:qca_cld3_wlan.ko
 
-# Platform
-BOARD_USES_QCOM_HARDWARE := true
-TARGET_BOARD_PLATFORM := lahaina
-
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 

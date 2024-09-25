@@ -31,6 +31,10 @@ PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := lahaina
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
