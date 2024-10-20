@@ -115,7 +115,7 @@ TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-Wno-unused-command-line-argument" \
     CFLAGS += -I/usr/include/android -I/usr/include \
-    CPATH=":$(CPATH):/usr/include/android:/usr/include/openssl"
+    CPATH="/usr/include:/usr/include/x86_64-linux-gnu:/usr/include/android:/usr/include/openssl"
 TARGET_KERNEL_CLANG_VERSION := r487747c
 
 # Kernel modules
