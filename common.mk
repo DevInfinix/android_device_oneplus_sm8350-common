@@ -117,7 +117,8 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 # Additional FOSS Applications
 PRODUCT_PACKAGES += \
     ViMusic \
-    Droid-ify
+    Droid-ify \
+    RevampedFMRadio
 
 PRODUCT_PACKAGES += \
     android.frameworks.stats@1.0.vendor \
@@ -282,14 +283,6 @@ PRODUCT_ENABLE_UFFD_GC := false
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
-
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.oplus
 
 # Media
 PRODUCT_PACKAGES += \
