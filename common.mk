@@ -116,7 +116,6 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Additional FOSS Applications
 PRODUCT_PACKAGES += \
-    ViMusic \
     Droid-ify \
     RevampedFMRadio
 
