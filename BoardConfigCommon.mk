@@ -115,11 +115,6 @@ TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-Wno-unused-command-line-argument"
 TARGET_KERNEL_CLANG_VERSION := r487747c
-# TARGET_KERNEL_CLANG_VERSION := azure
-# TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)
-# KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)/bin
-# TARGET_KERNEL_CLANG_COMPILE := true
-# KERNEL_CC := CC=clang
 
 # Kernel modules
 BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := $(COMMON_PATH)/modules.blocklist
