@@ -113,9 +113,7 @@ TARGET_KERNEL_SOURCE := kernel/oneplus/sm8350
 TARGET_KERNEL_CONFIG := vendor/lahaina-qgki_defconfig
 TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
-    HOSTCFLAGS="-Wno-unused-command-line-argument" \
-    CFLAGS += -I/usr/include \
-    CPATH="/usr/include:/usr/include/x86_64-linux-gnu:/usr/include/openssl"
+    HOSTCFLAGS="-Wno-unused-command-line-argument"
 TARGET_KERNEL_CLANG_VERSION := r487747c
 
 # Kernel modules
