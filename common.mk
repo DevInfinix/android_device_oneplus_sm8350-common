@@ -118,10 +118,7 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 PRODUCT_PACKAGES += \
     ViMusic \
     Droid-ify \
-	RevampedFMRadio
-
-# PixelParts
-include packages/apps/PixelParts/device.mk
+    RevampedFMRadio
 
 PRODUCT_PACKAGES += \
     android.frameworks.stats@1.0.vendor \
