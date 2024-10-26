@@ -11,5 +11,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="maintainer_name">DevInfinix | www.thesamstudios.tech</string>
+    <!-- DerpFest maintainer -->
+    <string name="maintainer">Derp Maintainer</string>
+    <string name="maintainer_name" translatable="false">DevInfinix | t.me/devinfinix_labs_discussions</string>
+    <string name="maintainer_telegram" translatable="false">https://t.me/devinfinix_labs_discussions</string>
+
+    <!-- DerpFest version -->
+    <string name="derp_version">DerpFest - Bleeding Edge Version</string>
+    <string name="derp_version_default">Bleeding Edge Version</string>
 </resources>
