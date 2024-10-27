@@ -444,7 +444,7 @@ $(call inherit-product, hardware/oplus/oplus-fwk/oplus-fwk.mk)
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal-service.qti
+    android.hardware.thermal@2.0-service.qti
 
 # Touch
 PRODUCT_PACKAGES += \
