@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2022 The LineageOS Project
-     SPDX-License-Identifier: Apache-2.0
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Max network scan search time in seconds -->
     <integer name="config_network_scan_helper_max_search_time_sec">254</integer>
 
+    <!-- If the Storage Manager settings are enabled. -->
+    <bool name="config_storage_manager_settings_enabled">true</bool>
+
+    <!-- Whether to show Keyboard vibration settings in the vibration and haptics screen. -->
+    <bool name="config_keyboard_vibration_supported">true</bool>
+
+    <!-- Whether or not device header widget tile should display in device info page -->
+    <bool name="config_show_device_header_in_device_info">true</bool>
+
+    <!-- Whether to show the "less secure" info section on the face enroll intro screen -->
+    <bool name="config_face_intro_show_less_secure">true</bool>
+
+    <!-- Whether to use the Lottie animation for the face education enrollment screen -->
+    <bool name="config_face_education_use_lottie">true</bool>
+
+    <!-- Whether to show a preference item for the manual in About phone -->
+    <bool name="config_show_manual">true</bool>
+
+    <!-- Whether to show a preference item for regulatory information in About phone -->
+    <bool name="config_show_regulatory_info">true</bool>
+
+    <!-- Whether to show Smooth Display feature in Settings Options -->
+    <bool name="config_show_smooth_display">true</bool>
+
+    <!-- Whether to enable the advanced vpn feature. The default is not to. -->
+    <bool name="config_advanced_vpn_enabled">true</bool>
+
+    <!-- Whether to display Cloned Apps page in Settings (Settings > Apps > Cloned Apps).-->
+    <bool name="config_cloned_apps_page_enabled">true</bool>
+
+    <!-- Whether to initiate Account login during Private Space setup.-->
+    <bool name="config_privatespace_account_login_enabled">true</bool>
 </resources>
