@@ -120,9 +120,6 @@ PRODUCT_PACKAGES += \
     Droid-ify \
     RevampedFMRadio
 
-# PixelParts
-include packages/apps/PixelParts/device.mk
-
 PRODUCT_PACKAGES += \
     android.frameworks.stats@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
